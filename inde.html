@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kantine</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <a href="#home">Gourmet au Catering</a>
+  <div class="top-bar">
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header-container" id="home">
+  <img src="/w3images/hamburger.jpg" alt="Hamburger Catering">
+  <div class="header-title">
+    <h1>Skolekantine</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="section" id="about">
+  <!-- About Section -->
+  <div style="display: flex; flex-wrap: wrap;">
+    <div style="flex: 50%; padding: 16px;">
+     <img src="/w3images/tablesetting2.jpg" alt="Table Setting">
+    </div>
+
+    <div style="flex: 50%; padding: 16px;">
+      <h1>Om kantinen</h1><br>
+      <h5>Akademiet kantine</h5>
+      <p>Akademiet sin kantine ligger i 2. Etasje vi serverer forskjellig mat hver dag. Vi serverer alt fra Salat på mandag til pizza på fredag. <span style="background-color: #f1f1f1;">Ferske</span> ingredienser.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div id="menu">
+    <h1>Our Menu</h1><br>
+    <h4>Bread Basket</h4>
+    <p>Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+    <h4>Honey Almond Granola with Fruits</h4>
+    <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+    <h4>Belgian Waffle</h4>
+    <p>Vanilla flavored batter with malted flour 7.50</p><br>
+
+    <h4>Scrambled eggs</h4>
+    <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+    <h4>Blueberry Pancakes</h4>
+    <p>With syrup, butter and lots of berries 8.50</p>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input type="text" placeholder="Name" required name="Name" style="padding: 16px; width: 100%;"></p>
+      <p><input type="number" placeholder="How many people" required name="People" style="padding: 16px; width: 100%;"></p>
+      <p><input type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00" style="padding: 16px; width: 100%;"></p>
+      <p><input type="text" placeholder="Message \ Special requirements" required name="Message" style="padding: 16px; width: 100%;"></p>
+      <p><button type="submit" style="background-color: #f1f1f1; padding: 16px; border: none; width: 100%;">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Powered by your own custom CSS</p>
+</footer>
+
+</body>
+</html>
