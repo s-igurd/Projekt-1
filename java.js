@@ -13,4 +13,6 @@ function showDagensMeny() {
     document.getElementById("dagens-meny").innerHTML = `<h2>Dagens meny</h2><p>${dagensMeny}</p>`;
   }
   showDagensMeny();
-  
+
+
+  console.log("Hei")
